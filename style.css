@@ -1,26 +1,32 @@
-{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
 header{
-    background: color #262626;
+    background: #262626;
 }
 
 .navbar{
     min-height: 70px;
-    display: flex;
+    display: flex;  
     justify-content: space-between;
     align-items: center;
     padding: 0 24px;
+    color: white
 }
 
-.nav-menu{
+.navMenu{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 60px;
+
 }
 
-.nav
+a{
+    text-decoration: none;
+    color: white
+    
+
+}
+
+.navBranding{
+    font-size: 2rem;
+}
