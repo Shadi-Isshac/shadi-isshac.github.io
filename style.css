@@ -63,7 +63,7 @@ a{
     }
     .navMenu{
         position: fixed;
-        left: -120%;
+        left: -110%;
         top: 70px;
         gap: 0;
         flex-direction: column;
@@ -86,3 +86,29 @@ a{
 #idLinkedInIcon:hover{background-color:#06d;}
 
 
+.aboutMeContainer{
+    margin: 120px;
+}
+
+.skillsContainer{
+    margin: 120px
+}
+
+footer{
+    text-align: center;
+}
+
+.projectsContainer{
+    margin: 120px
+}
+
+.emailContainer{
+    margin: 120px;
+    text-align: center;
+}
+
+.introContainer{
+    margin-left: 200px;
+    margin-top: 200px;
+    
+}
